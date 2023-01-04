@@ -1,0 +1,246 @@
+/* Fuentes tipográficas (fuentes, tipografías o tipos de letra) */
+     /* Aqui tenemos todas la tipografías disponibles
+      No recuerdo en donde las encontré pero es muy útil tenerlas presentes - 
+*/
+
+/* Las fuentes tipográficas aceptadas en esta plataforma son: 
+monospaced, serif, sans serif, cursive, impact, Lucida handwriting, Comic Sans MS, Verdana, Calibri, Tahoma, georgia */
+
+//En general, son las fuentes que están en Paint de microsoft - Prueben todas las tiografías del Paint de Windows)
+
+//Esto es el fondo, color de letra y el tamañod e letra
+background(0); fill(95, 230, 156);textSize(20);
+
+
+
+
+/* Lista de la izquierda:
+algunas de las fuentes mas básicas y mas abajo, algunas mas interesantes */
+
+/* Fuente monoespaciada tipo máquina de escribir antigüa  (Para textos tipo código de PC)  = courier*/
+var f = createFont("monospace");
+textFont(f);
+textSize(20);
+text("HOLA monospace", 10, 20);
+
+//Fuente con patitas (Para textos largos)= times
+var f = createFont("serif");
+textFont(f);
+textSize(20);
+text("HOLA serif", 10, 40);
+
+//Fuente  sin patitas (Para títulos y subtítulos) = arial
+var f = createFont("sans-serif");
+textFont(f);
+textSize(20);
+text("HOLA sans-serif", 10, 60);
+
+//Fuente cursiva (Para títulos y subtítulos)= comic sans
+var f = createFont("cursive");
+textFont(f);
+textSize(20);
+text("HOLA cursive", 10, 80);
+
+//Fuente Impact (Para títulos resaltados)
+var f = createFont("impact");
+textFont(f);
+textSize(20);
+text("HOLA impact", 10, 100);
+
+//Fuente Arial Black (sans-serif Bold)
+var f = createFont("arial black");
+textFont(f);
+textSize(20);
+text("HOLA arial black", 10, 120);
+
+//fuente Calibri (Es similar a Verdana pero mas junta y delgada)
+var f = createFont("calibri");
+textFont(f);
+textSize(20);
+text("HOLA calibri", 10, 140);
+
+//fuente Showcard Gothic
+var f = createFont("Showcard Gothic");
+textFont(f);
+textSize(18);
+text("SHOWCARD Gothic", 10, 160);
+
+//fuente Snap ITC
+var f = createFont("Snap ITC");
+textFont(f);
+textSize(19);
+text("SNAP itc", 10, 180);
+
+//fuente Lucida Calligraphy
+var f = createFont("Lucida Calligraphy");
+textFont(f);
+textSize(18);
+text("LUCIDA calligraphy", 10, 200);
+
+//fuente Haettenschweiler
+var f = createFont("Haettenschweiler");
+textFont(f);
+textSize(21);
+text("HOLA haettenschweiler", 10, 220);
+
+//fuente Chiller
+var f = createFont("chiller");
+textFont(f);
+textSize(24);
+text("HOLA chiller", 10, 240);
+
+//fuente Britannic Bold
+var f = createFont("Britannic Bold");
+textFont(f);
+textSize(20);
+text("BRITANIC Bold", 10, 260);
+
+//fuente Berlin Sans FB Demi
+var f = createFont("Berlin Sans FB Demi");
+textFont(f);
+textSize(20);
+text("BERLIN Sans FB demi", 10, 280);
+
+//fuente Agency FB
+var f = createFont("Agency FB");
+textFont(f);
+textSize(23);
+text("Agency FB", 10, 300);
+
+//fuente Bernard MT Condensed
+var f = createFont("Bernard MT Condensed");
+textFont(f);
+textSize(16);
+text("BERNARD MT Condensed", 10, 320);
+
+//fuente Bodoni MT Poster Compressed
+var f = createFont("Bodoni MT Poster Compressed");
+textFont(f);
+textSize(21);
+text("BODONI MT Poster Compressed", 10, 340);
+
+//fuente Tempus Sans ITC
+var f = createFont("Tempus Sans ITC");
+textFont(f);
+textSize(23);
+text("TEMPUS Sans ITC", 10, 360);
+
+//fuente Viner Hand ITC
+var f = createFont("Viner Hand ITC");
+textFont(f);
+textSize(23);
+text("Viner Hand ITC", 10, 380);
+
+
+
+
+
+/* Lista de la derecha:
+fuentes manuscritas y otras raras*/
+
+//Fuente Lucida manuscrita (Para firmas y manuscritos)
+var f = createFont("Lucida handwriting");
+textFont(f);
+textSize(15);
+text("LUCIDA handwriting", 205, 20);
+
+//Fuente Freestyle script (Tipo Escritura a mano)
+var f = createFont("Freestyle script");
+textFont(f);
+textSize(21);
+text("FREESTYLE script", 220, 40);
+
+//Fuente Informal Roman (Tipo Escritura a mano)
+var f = createFont("informal roman");
+textFont(f);
+textSize(24);
+text("INFORMAL roman", 220, 60);
+
+//Fuente Algerian (Muy chula)
+var f = createFont("algerian");
+textFont(f);
+textSize(22);
+text("HOLA algerian", 220, 80);
+
+//Fuente Jokerman (Divertida)
+var f = createFont("jokerman");
+textFont(f);
+textSize(20);
+text("HOLA Jokerman", 220, 100);
+//Fuente Magneto (Una famosa tipografía de uso libre)
+var f = createFont("magneto");
+textFont(f);
+textSize(19);
+text("Hola Magento", 220, 120);
+
+//Fuente Bauhaus 93 (De la escuela Bauhaus)
+var f = createFont("Bauhaus 93");
+textFont(f);
+textSize(22);
+text("HOLA bauhaus", 220, 140);
+
+//Fuente Wide Latin (Enorme)
+var f = createFont("Wide Latin");
+textFont(f);
+textSize(16);
+text("WIDE   latin", 220, 160);
+
+//Fuente Cooper Black Sans (grande y redondeada)
+var f = createFont("cooper black");
+textFont(f);
+textSize(20);
+text("COOPER black", 220, 180);
+
+//Fuente Broadway (Elegante para títulos)
+var f = createFont("broadway");
+textFont(f);
+textSize(20);
+text("HOLA broadway", 220, 200);
+
+//Fuente Stencil (Imita al uso de stencils)
+var f = createFont("stencil");
+textFont(f);
+textSize(20);
+text("HOLA stencil", 220, 220);
+
+//Fuente Harrington 
+var f = createFont("harrington");
+textFont(f);
+textSize(20);
+text("HOLA harrington", 220, 240);
+
+//Fuente colonna MT 
+var f = createFont("colonna MT");
+textFont(f);
+textSize(28);
+text("HOLA colonna", 220, 260);
+
+//Fuente matura MT script capitals 
+var f = createFont("matura MT script capitals");
+textFont(f);
+textSize(22);
+text("Matura mt Script", 220, 280);
+
+//Fuente Niagara engraved 
+var f = createFont("niagara engraved");
+textFont(f);
+textSize(35);
+text("NIAGARA engraved", 220, 315);
+
+//Fuente Old english text mt 
+var f = createFont("old english text mt");
+textFont(f);
+textSize(25);
+text("Old English text", 220, 340);
+
+//Fuente Playbill 
+var f = createFont("playbill");
+textFont(f);
+textSize(30);
+text("HOLA Playbill", 220, 365);
+
+//Fuente Playbill 
+var f = createFont("ravie");
+textFont(f);
+textSize(24);
+text("HOLA ravie", 220, 390);
